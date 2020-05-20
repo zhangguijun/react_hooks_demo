@@ -10,6 +10,8 @@ import Demo6 from './hooks/demo6'
 import Demo7 from './hooks/demo7'
 import {DemoStore1, DemoStore2} from './hooks/useObserver'
 
+
+
 function App(props) {
   console.log('props', props)
   return (
@@ -17,6 +19,7 @@ function App(props) {
       <DemoStore1></DemoStore1>
       <div>---------------无情分割线------------------</div>
       <DemoStore2></DemoStore2>
+      {/* <App1></App1> */}
     </div>
   );
 }
