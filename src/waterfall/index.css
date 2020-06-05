@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  max-width: 500px;
+  margin: auto;
+}
+
+.link {
+  display: block;
+  padding: 8px;
+  text-align: center;
+  color: red;
+}
+
+.water-fall {
+  display: flex;
+}
+.common-load-more{
+  display: flex;
+}
+
+.half {
+  width: 50%;
+  padding: 8px;
+}
+
+.img {
+  border-radius: 8px;
+}
