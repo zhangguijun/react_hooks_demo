@@ -48,8 +48,6 @@ const WaterFall = (props) => {
       setLoaded(true)
     }
     init()
-
-    // setImages(_img.concat(imgArr))
   }, [])
   async function loadImg(imgArr) {
     let _left = deepClone(leftImgIndexes);
